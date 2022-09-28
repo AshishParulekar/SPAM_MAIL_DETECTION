@@ -3,8 +3,8 @@ pandas
 numpy 
 sklearn
 pickle-mixin==1.0.2
-nltk
-punkt
+nltk==3.6.3
+#punkt
 #nltk.download('stopwords')
 #nltk.download('wordnet')
 #nltk.download('wordnet')
