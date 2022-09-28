@@ -8,4 +8,4 @@ nltk
 #nltk.download('stopwords')
 #nltk.download('wordnet')
 #nltk.download('wordnet')
-nltk.downloader.Downloader()
+#nltk.downloader.Downloader()
