@@ -54,7 +54,7 @@ def Spam_Detection(text):
     if(result==1):
         #image = Image.open('NO_SPAM.jpg')
         #st.image(image, caption='Sunrise by the mountains')
-        st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/NO_SPAM.png?token=GHSAT0AAAAAABXHPZKY5HF4AVBDZ2X42OVSYZVOBVQ')
+        st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/SPAM.png?token=GHSAT0AAAAAABXHPZKZYVVBV4GN456NG452YZVOW2Q')
         #return '** Spam **'
     else:
          st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/NO_SPAM.png?token=GHSAT0AAAAAABXHPZKYBDQFMLLDUTOSAYFQYZVOVIA')
