@@ -55,16 +55,17 @@ def Spam_Detection(text):
         #image = Image.open('NO_SPAM.jpg')
         #st.image(image, caption='Sunrise by the mountains')
         
-        st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/SPAM.png?token=GHSAT0AAAAAABXHPZKYBPGB3EGFSESDDMEWYZVPDYA')
+        st.image('SPAM.png')
         #return '** Spam **'
     else:
-         st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/NO_SPAM.png?token=GHSAT0AAAAAABXHPZKZWNGYJYTCYUPLSUUKYZVPFZA')
+         st.image('NO_SPAM.png')
         #return '** Not_Spam **'
 
 
 # Streamlit_Code********************
 
 st.title('Spam Mail Detector')
+st.image('NO_SPAM.png')
 C1,C2 = st.columns((8,2))
 C1.write(' ')
 C1.subheader('Please Enter Your Mail Message')
