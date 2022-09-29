@@ -57,7 +57,7 @@ def Spam_Detection(text):
         st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/SPAM.png?token=GHSAT0AAAAAABXHPZKYNNRYYKYUL7XNIZQMYZVMOLA')
         #return '** Spam **'
     else:
-         st.image('NOT_SPAM.png')
+         st.image('https://raw.githubusercontent.com/AshishParulekar/SPAM_MAIL_DETECTION/main/NO_SPAM.png?token=GHSAT0AAAAAABXHPZKZ3OF7LCC3EUL7IJDSYZVMP3A')
         #return '** Not_Spam **'
 
 
