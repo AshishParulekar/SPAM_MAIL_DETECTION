@@ -64,7 +64,7 @@ def Spam_Detection(text):
 # Streamlit_Code********************
 
 st.title('Spam Mail Detector')
-st.image('NOT_SPAM.png')
+st.image('NOT_SPAM.PNG')
 
 C1,C2 = st.columns((8,2))
 C1.write(' ')
