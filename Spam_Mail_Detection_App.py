@@ -18,7 +18,7 @@ import nltk
 #dler._update_index()
 #dler.download('all')
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 
 
 #####  Saved_Model :-
@@ -64,7 +64,7 @@ def Spam_Detection(text):
 # Streamlit_Code********************
 
 st.title('Spam Mail Detector')
-st.image('NOT_SPAM.PNG')
+st.image('NOT_SPAM.png')
 
 C1,C2 = st.columns((8,2))
 C1.write(' ')
