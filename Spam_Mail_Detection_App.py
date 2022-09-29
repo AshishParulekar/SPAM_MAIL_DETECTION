@@ -18,7 +18,7 @@ import nltk
 #dler._update_index()
 #dler.download('all')
 import streamlit as st
-
+from PIL import Image
 
 
 #####  Saved_Model :-
@@ -52,9 +52,13 @@ def Spam_Detection(text):
     Vector=Cv.transform([text]).toarray()
     result=Log.predict(Vector)
     if(result==1):
-        return '** Spam **'
+        #image = Image.open('NO_SPAM.jpg')
+        #st.image(image, caption='Sunrise by the mountains')
+        st.image('SPAM.PNG')
+        #return '** Spam **'
     else:
-        return '** Not_Spam **'
+         st.image('NOT_SPAM.PNG')
+        #return '** Not_Spam **'
 
 
 # Streamlit_Code********************
@@ -70,6 +74,6 @@ Bu=C1.button('Check')
 
 if (Bu==True):
     text=Spam_Detection(input_text)
-    C1.subheader('**** Your Mail or Message is:  -'+ text )
+    #C1.subheader('Your Mail or Messege is ',+text )
 
 
