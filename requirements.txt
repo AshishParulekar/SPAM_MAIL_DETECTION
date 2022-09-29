@@ -9,4 +9,4 @@ nltk==3.6.3
 #nltk.download('wordnet')
 #nltk.download('wordnet')
 #nltk.downloader.Downloader()
-PIL==5.1.0
+#PIL==5.1.0
