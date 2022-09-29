@@ -54,10 +54,10 @@ def Spam_Detection(text):
     if(result==1):
         #image = Image.open('NO_SPAM.jpg')
         #st.image(image, caption='Sunrise by the mountains')
-        st.image('SPAM.PNG')
+        st.image('SPAM.png')
         #return '** Spam **'
     else:
-         st.image('NOT_SPAM.PNG')
+         st.image('NOT_SPAM.png')
         #return '** Not_Spam **'
 
 
